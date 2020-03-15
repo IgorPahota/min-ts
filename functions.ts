@@ -18,7 +18,7 @@ interface MyPositionWithDefault extends MyPosition{
 
 function pos(): MyPosition
 function pos(a: number): MyPositionWithDefault
-// function pos(a: number, b:number): MyPosition
+function pos(a: number, b:number): MyPosition
 
 function pos(a?: number, b?:number) {
     if(!a && !b) {
